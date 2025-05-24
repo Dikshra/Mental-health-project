@@ -1,0 +1,293 @@
+[
+    {
+      "question": "How often do you feel happy?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 8},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 3},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "Do you feel anxious or stressed?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How well do you sleep?",
+      "options": [
+        {"text": "Very well", "score": 10},
+        {"text": "Well", "score": 7},
+        {"text": "Average", "score": 5},
+        {"text": "Poorly", "score": 3},
+        {"text": "Very poorly", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel energetic?",
+      "options": [
+        {"text": "Always", "score": 9},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How is your appetite lately?",
+      "options": [
+        {"text": "Very good", "score": 10},
+        {"text": "Good", "score": 7},
+        {"text": "Average", "score": 5},
+        {"text": "Poor", "score": 3},
+        {"text": "Very poor", "score": 0}
+      ]
+    },
+    {
+      "question": "How do you feel about your social life?",
+      "options": [
+        {"text": "Very satisfied", "score": 10},
+        {"text": "Satisfied", "score": 8},
+        {"text": "Neutral", "score": 5},
+        {"text": "Unsatisfied", "score": 2},
+        {"text": "Very unsatisfied", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel sad?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How well do you handle stress?",
+      "options": [
+        {"text": "Very well", "score": 10},
+        {"text": "Well", "score": 7},
+        {"text": "Average", "score": 5},
+        {"text": "Poorly", "score": 3},
+        {"text": "Very poorly", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel motivated?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel tired?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How is your concentration?",
+      "options": [
+        {"text": "Excellent", "score": 10},
+        {"text": "Good", "score": 7},
+        {"text": "Average", "score": 5},
+        {"text": "Poor", "score": 3},
+        {"text": "Very poor", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel restless?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel calm?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How satisfied are you with your life?",
+      "options": [
+        {"text": "Very satisfied", "score": 10},
+        {"text": "Satisfied", "score": 7},
+        {"text": "Neutral", "score": 5},
+        {"text": "Unsatisfied", "score": 3},
+        {"text": "Very unsatisfied", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel lonely?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel hopeful?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How is your energy level during the day?",
+      "options": [
+        {"text": "Very high", "score": 10},
+        {"text": "High", "score": 7},
+        {"text": "Moderate", "score": 5},
+        {"text": "Low", "score": 3},
+        {"text": "Very low", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel irritated?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How is your overall mental health?",
+      "options": [
+        {"text": "Excellent", "score": 10},
+        {"text": "Good", "score": 7},
+        {"text": "Average", "score": 5},
+        {"text": "Poor", "score": 3},
+        {"text": "Very poor", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel frustrated?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel confident?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel overwhelmed?",
+      "options": [
+        {"text": "Never", "score": 10},
+        {"text": "Rarely", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Often", "score": 3},
+        {"text": "Always", "score": 0}
+      ]
+    },
+    {
+      "question": "How well do you manage your emotions?",
+      "options": [
+        {"text": "Very well", "score": 10},
+        {"text": "Well", "score": 7},
+        {"text": "Average", "score": 5},
+        {"text": "Poorly", "score": 3},
+        {"text": "Very poorly", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel peaceful?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel grateful?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel relaxed?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 3},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel optimistic?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel fulfilled?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 2},
+        {"text": "Never", "score": 0}
+      ]
+    },
+    {
+      "question": "How often do you feel joyful?",
+      "options": [
+        {"text": "Always", "score": 10},
+        {"text": "Often", "score": 7},
+        {"text": "Sometimes", "score": 5},
+        {"text": "Rarely", "score": 3},
+        {"text": "Never", "score": 0}
+      ]
+    }
+  ]
+  
