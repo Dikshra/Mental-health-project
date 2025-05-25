@@ -1,5 +1,3 @@
-# Mental-health-project
-
 
 # 🧠 Mental Health Desktop App
 
@@ -76,7 +74,8 @@ mood_detective/
 ```bash
 python main.py
 ```
-
+- When the project runs, the database will be automatically created inside `assets/database.db` if the database is already created it will use the existing database.
+While using  app for the first time just create a normal user and start using the mood detector on daily basis.
 ---
 
 ## 📋 Admin Credentials
@@ -89,11 +88,3 @@ Password: admin123
 ```
 
 ---
-
-
-
-
-
-
-
-
