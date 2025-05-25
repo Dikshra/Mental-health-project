@@ -7,26 +7,34 @@ class RegisterWindow:
     def __init__(self, root):
         self.root = root
         self.root.title("User Registration")
+        self.root.configure(bg="#1e1e1e")  # Dark background
 
-        self.frame = tk.Frame(root)
-        self.frame.pack(padx=20, pady=20)
+        self.frame = tk.Frame(root, bg="#1e1e1e")
+        self.frame.pack(padx=40, pady=30)
 
-        tk.Label(self.frame, text="Register New User", font=("Arial", 16)).grid(row=0, column=0, columnspan=2, pady=10)
+        label_style = {"bg": "#1e1e1e", "fg": "#ffffff", "font": ("Arial", 12)}
+        entry_style = {"bg": "#2c2c2c", "fg": "#ffffff", "insertbackground": "white", "highlightthickness": 1, "highlightbackground": "#555555"}
+        button_style = {"bg": "#3c3f41", "fg": "#ffffff", "activebackground": "#5c5f61", "activeforeground": "#ffffff", "relief": "flat"}
 
-        tk.Label(self.frame, text="Username:").grid(row=1, column=0, sticky="e", pady=5)
-        self.username_entry = tk.Entry(self.frame)
-        self.username_entry.grid(row=1, column=1, pady=5)
+        tk.Label(self.frame, text="Register New User", font=("Arial", 16, "bold"), bg="#1e1e1e", fg="#00ffff").grid(row=0, column=0, columnspan=2, pady=(0, 20))
 
-        tk.Label(self.frame, text="Password:").grid(row=2, column=0, sticky="e", pady=5)
-        self.password_entry = tk.Entry(self.frame, show="*")
-        self.password_entry.grid(row=2, column=1, pady=5)
+        tk.Label(self.frame, text="Username:", **label_style).grid(row=1, column=0, sticky="e", pady=5)
+        self.username_entry = tk.Entry(self.frame, **entry_style)
+        self.username_entry.grid(row=1, column=1, pady=5, ipady=3, ipadx=3)
 
-        tk.Label(self.frame, text="Confirm Password:").grid(row=3, column=0, sticky="e", pady=5)
-        self.confirm_password_entry = tk.Entry(self.frame, show="*")
-        self.confirm_password_entry.grid(row=3, column=1, pady=5)
+        tk.Label(self.frame, text="Password:", **label_style).grid(row=2, column=0, sticky="e", pady=5)
+        self.password_entry = tk.Entry(self.frame, show="*", **entry_style)
+        self.password_entry.grid(row=2, column=1, pady=5, ipady=3, ipadx=3)
 
-        tk.Button(self.frame, text="Register", width=15, command=self.register_user).grid(row=4, column=0, columnspan=2, pady=15)
-        tk.Button(self.frame, text="Back to Login", command=self.back_to_login).grid(row=5, column=0, columnspan=2)
+        tk.Label(self.frame, text="Confirm Password:", **label_style).grid(row=3, column=0, sticky="e", pady=5)
+        self.confirm_password_entry = tk.Entry(self.frame, show="*", **entry_style)
+        self.confirm_password_entry.grid(row=3, column=1, pady=5, ipady=3, ipadx=3)
+
+        register_btn = tk.Button(self.frame, text="Register", width=20, command=self.register_user, **button_style)
+        register_btn.grid(row=4, column=0, columnspan=2, pady=(15, 10))
+
+        back_btn = tk.Button(self.frame, text="Back to Login", width=20, command=self.back_to_login, **button_style)
+        back_btn.grid(row=5, column=0, columnspan=2)
 
     def register_user(self):
         username = self.username_entry.get().strip()
@@ -45,7 +53,6 @@ class RegisterWindow:
             conn = get_connection()
             cursor = conn.cursor()
 
-            # Try inserting the user (will fail if username is not unique)
             cursor.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, password))
             conn.commit()
             messagebox.showinfo("Success", "User registered successfully!")
